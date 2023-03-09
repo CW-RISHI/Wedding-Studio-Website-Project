@@ -1,0 +1,33 @@
+extends base.pug
+
+block style
+    style 
+        include ../static/booking.css
+
+block content 
+    section.section1 
+        div 
+            h1 Booking 
+        div 
+            section.section2 
+                div.container
+                    form(action="/booking", method="post")
+                        div.form
+                            label(for="Fname") Name :
+                            input(type="text" id = "Fname" name = "Fname" placeholder = "Enter Your Name")
+                        div.form
+                            label(for="sex") Gender :
+                            input(type="text" id = "sex" name = "sex" placeholder = "Enter Your Gender")
+                        div.form
+                            label(for="Date") Date :
+                            input(type="date" id = "Date" name = "Date" placeholder = "Enter Date")      
+                        div.form
+                            label(for="phonenumber") Mobile number :
+                            input(type="text" id = "phonenumber" name = "phonenumber" placeholder = "Enter your phonenumber")      
+                        div.form
+                            label(for="email") Email id :
+                            input(type="Email" id = "email" name = "email" placeholder = "Enter Email id")
+                        div.form
+                            label(for="textarea") Details :
+                            textarea#textarea(name="details", cols="30", rows="10" placeholder = "Enter Your Details")
+                        button.btn Submit      

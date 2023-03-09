@@ -1,0 +1,123 @@
+/* body */
+body{
+    background-color: black;
+}
+
+/* navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    margin: -8px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Logo */
+
+#logo img {
+    width: 165px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    margin: 8px;
+    padding: 12px 0px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* section */
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #section1::before {
+    content: "";
+    background: url(/static/wedding.webp) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+} */
+
+h1 {
+    text-align: center;
+
+}
+
+
+.image img {
+    width: 966px;
+    margin: 18px;
+}
+
+/* footer */
+
+#footer {
+    display: flex;
+
+}
+
+#footer::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 42%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+}
+
+#log img {
+    width: 165px;
+}
+#log p{
+    color: white;
+}
+
+#para p{
+    color: white;
+}
+
+#latestphotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
+#latestphotos img {
+    width: 100px;
+    margin: 4px;
+}
+
+#latestphotos img:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+#contact{
+    color: white;
+}

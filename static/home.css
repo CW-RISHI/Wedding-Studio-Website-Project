@@ -1,0 +1,130 @@
+/* Navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    margin: -8px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Logo */
+
+#logo img {
+    width: 165px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    margin: 8px;
+    padding: 12px 0px;
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* section */
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 180px 0px;
+}
+.header{
+    margin: 75px 0px;
+    font-size: 2rem;
+    color: white;
+}
+#Home::before{
+    content: "";
+    background: url(https://shaadiwish.com/blog/wp-content/uploads/2021/03/wedding-couple-poses.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 124%;
+    width: 100%;
+    z-index: -1;   
+}
+
+
+
+#socialmedia{
+    height: 61px;
+    padding: 73px 0px;
+    width: 101%;
+}
+#socialmedia::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 23%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media{
+    margin: 55px 37px;
+}
+#social img {
+    width: 60px;
+    cursor: pointer;
+}
+#social .media a img:hover{
+    /* background-color: black; */
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+
+
+
+/* footer */
+
+#footer{
+    display: flex;
+    
+}
+#footer::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 42%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+}
+
+#log img{
+    width: 165px;
+}
+
+#latestphotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+#latestphotos img {
+    width: 100px;
+    margin: 4px;
+}
+#latestphotos img:hover{
+    border-radius: 10px;
+    transform: scale(1.1);
+}

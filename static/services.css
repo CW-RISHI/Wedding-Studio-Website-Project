@@ -1,0 +1,242 @@
+ /* body */
+ body {
+    background-color: black;
+}
+
+/* Navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    margin: -8px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Logo */
+
+#logo img {
+    width: 165px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    margin: 8px;
+    padding: 12px 0px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* section 1 */
+.heading1 {
+    text-align: center;
+    color: white;
+}
+
+/*Section 2*/
+#section2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    /* grid-template-rows: 2fr 2fr 2fr; */
+}
+
+.img {
+    margin: 8px 8px;
+}
+
+.img img {
+    margin: 0px 108px;
+    width: 100px;
+    height: 100px;
+}
+
+.img .heading3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.img p {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/* section 4 */
+
+#section4 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    height: 1000px;
+}
+
+.imgcontainer {
+    margin: 2px 2px;
+}
+
+.imgcontainer:hover {
+    opacity: 0.9;
+}
+
+.imgcontainer p {
+    color: white;
+    text-align: center;
+    margin: 2px 2px;
+    font-weight: bold;
+}
+
+#wedding {
+    content: "";
+    position: absolute;
+    background: url(/static/wedding.jpg)no-repeat center center/cover;
+    height: 53%;
+    width: 48%;
+    z-index: -1;
+}
+
+#ring {
+    content: "";
+    position: absolute;
+    background: url(/static/ring\ ceremony.jpg)no-repeat center center/cover;
+    height: 53%;
+    width: 48%;
+    z-index: -1;
+}
+
+#reception {
+    content: "";
+    position: absolute;
+    background: url(/static/grand\ reception.jpg)no-repeat center center/cover;
+    height: 53%;
+    width: 48%;
+    z-index: -1;
+}
+
+#portfolio {
+    content: "";
+    position: absolute;
+    background: url(/static/portfolio.jpg)no-repeat center center/cover;
+    height: 53%;
+    width: 48%;
+    z-index: -1;
+}
+
+#prewedding {
+    content: "";
+    position: absolute;
+    background: url(/static/pre\ wedding.jpg)no-repeat center center/cover;
+    height: 53%;
+    width: 48%;
+    z-index: -1;
+}
+
+#anniversary {
+    content: "";
+    position: absolute;
+    background: url(/static/anniversary.jpg)no-repeat center center/cover;
+    height: 53%;
+    width: 48%;
+    z-index: -1;
+}
+
+/* section- socialmedia */
+
+#socialmedia {
+    height: 61px;
+    padding: 70px 0px;
+    width: 101%;
+}
+
+#socialmedia::before {
+    content: "";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 23%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media {
+    margin: 55px 37px;
+}
+
+#social img {
+    width: 60px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#social .media a img:hover {
+    /* background-color: black; */
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+
+/* footer */
+
+#footer {
+    display: flex;
+
+}
+
+#footer::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 42%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+}
+
+#log img {
+    width: 165px;
+}
+#log p{
+    color: white;
+}
+
+#latestphotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
+#latestphotos img {
+    width: 100px;
+    margin: 4px;
+}
+
+#latestphotos img:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+#contact {
+    color: white;
+}

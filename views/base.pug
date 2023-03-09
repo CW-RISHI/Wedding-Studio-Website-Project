@@ -1,0 +1,53 @@
+html
+  head
+    title Fashionworld - #{title}
+    block scripts
+    block style 
+  body
+    nav#navbar
+        div#logo
+            img(src="/static/camera.jpg")
+        
+        ul 
+            li.item 
+               a(href="/Home") Home
+            li.item 
+               a(href="/Booking") Booking
+            li.item 
+               a(href="/Services") Services
+            li.item 
+               a(href="/Gallery") Gallery
+            li.item 
+               a(href="/Team") Team
+            li.item 
+               a(href="/Contacts") Contacts
+    block content
+    footer#footer
+        div#log
+            img(src="/static/camera.jpg")
+            p(style="width: 283px;") The world without photography will be meaningless to us if there is no light and color, which opens up our minds and expresses passion
+        
+        div#para
+            p(style="font-weight: bold; font-size: 1.5em; text-align: center;") Latest Photos
+            div#latestphotos
+                div.latestp
+                    a(href="/static/pallavi.JPG" target="_blank")
+                        img(src="/static/pallavi.JPG")
+                div.latestp
+                    a(href="/static/Ricky bhaiya.JPG" target="_blank")
+                        img(src="/static/Ricky bhaiya.JPG")
+                div.latestp
+                    a(href="/static/goldi bhaiya.JPG" target="_blank")
+                        img(src="/static/goldi bhaiya.JPG")
+                div.latestp
+                    a(href="/static/1646390298992.JPG" target="_blank")
+                        img(src="/static/1646390298992.JPG")
+
+        div#contact
+            h2.header2 Contacts
+            p Phone : 9990722634
+            p Email : hiiamrishiraj@gmail.com
+            div.copyright
+                | Copyright &copy; www.fashionworld.com. All rights reserved.
+                br
+                | Designed by India Web developers 
